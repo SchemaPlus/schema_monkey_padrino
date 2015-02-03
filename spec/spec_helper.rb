@@ -7,8 +7,8 @@ $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
 require 'rake'
 require 'rspec'
-require 'rails/all'
-require 'schema_monkey_rails'
+require 'padrino'
+require 'schema_monkey_padrino'
 require 'schema_dev/rspec'
 
 SchemaDev::Rspec.setup

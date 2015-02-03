@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'schema_monkey_rails/version'
+require 'schema_monkey_padrino/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "schema_monkey_rails"
-  spec.version       = SchemaMonkey::Rails::VERSION
+  spec.name          = "schema_monkey_padrino"
+  spec.version       = SchemaMonkey::Padrino::VERSION
   spec.authors       = ["ronen barzel"]
   spec.email         = ["ronen@barzel.org"]
-  spec.summary       = %q{Inserts SchemaMonkey into a rails app.}
-  spec.homepage      = "https://github.com/SchemaPlus/schema_monkey_rails"
+  spec.summary       = %q{Inserts SchemaMonkey into a padrino app.}
+  spec.homepage      = "https://github.com/SchemaPlus/schema_monkey_padrino"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activerecord", "~> 4.2"
-  spec.add_dependency "rails"
+  spec.add_dependency "padrino"
   spec.add_dependency "schema_monkey", "~> 1.0"
 
   spec.add_development_dependency "bundler", "~> 1.7"
