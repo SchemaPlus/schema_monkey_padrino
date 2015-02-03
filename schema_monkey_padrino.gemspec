@@ -6,8 +6,8 @@ require 'schema_monkey_padrino/version'
 Gem::Specification.new do |spec|
   spec.name          = "schema_monkey_padrino"
   spec.version       = SchemaMonkey::Padrino::VERSION
-  spec.authors       = ["ronen barzel"]
-  spec.email         = ["ronen@barzel.org"]
+  spec.authors       = ["ronen barzel", "John Feminella"]
+  spec.email         = ["ronen@barzel.org", "jxf@jxf.me"]
   spec.summary       = %q{Inserts SchemaMonkey into a padrino app.}
   spec.homepage      = "https://github.com/SchemaPlus/schema_monkey_padrino"
   spec.license       = "MIT"
