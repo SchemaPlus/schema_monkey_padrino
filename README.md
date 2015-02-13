@@ -50,7 +50,7 @@ SchemaMonkey::Padrino is tested on:
 ## History
 
 * 0.1.0 - Initial release
- 
+
 ## Development & Testing
 
 Are you interested in contributing to SchemaMonkey::Padrino?  Thanks!  Please follow the standard protocol: fork, feature branch, develop, push, and issue pull request.
